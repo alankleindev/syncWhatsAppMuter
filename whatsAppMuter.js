@@ -1,6 +1,6 @@
 exports.handler = function(context, event, callback) {
     
-    // NOTE: ** You Must Run the Sync Map Create Function Only The First Time **
+    // NOTE: ** You Must Run the Sync Map Create Function Once, The First Time **
     // Point your WhatsApp "WHEN A MESSAGE COMES" URL to this Function
     // If the From user is new, this function will create a Sync Map key for them and redirect to your TwiML source
     // If the From user has previously send an inbound message, this function will prevent further processing
