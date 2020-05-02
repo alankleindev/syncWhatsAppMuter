@@ -13,12 +13,11 @@ exports.handler = function(context, event, callback) {
 	
 	// ***CONFIG STEPS***
 	
-	    // ** UPDATE THIS VALUE USING SID FROM SYNC MAP CREATE FUNCTION **
+        // ** UPDATE THIS VALUE TO YOUR DEFAULT SYNC SERVICE SID **
 	    // https://www.twilio.com/console/sync/services (when logged into the Twilio Console)
 	    const syncService = 'IS.....'; 
 	
-	    // ** UPDATE THIS VALUE TO YOUR DEFAULT SYNC SERVICE SID **
-	    // https://www.twilio.com/console/sync/services (when logged into the Twilio Console)
+        // ** UPDATE THIS VALUE USING THE SID FROM THE SYNC MAP CREATE FUNCTION - whatsAppCreateSyncMap.js **
 	    const syncMap = 'MP.....'; 
 	
 	    // ** UPDATE THIS VALUE TO A TWIML SOURCE TO REDIRECT NEW INTERACTIONS TO
