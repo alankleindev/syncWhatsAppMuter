@@ -16,5 +16,5 @@ This function will delete a From key from the Sync Map, useful when testing and 
 
 3. whatsAppMuter.js
 
-This is the main function. When an inbound Twilio WhatsApp request comes in, this Function should execute (you point your WhatsApp phone number "When A Message Comes" to this Function. It will check to see if the WhatsApp From number is already a key in the Sync Map. If so, it will bail out (no action taken). If the From number is not an existing key, it means this is a new interaction from that WhatsApp phone number. The From will be entered in the Sync Map and the WhatsApp message will be redirected to a TwiML source.
+This is the main function. When an inbound Twilio WhatsApp request comes in, this Function should execute (you point your WhatsApp phone number "When A Message Comes" to this Function). It will check to see if the WhatsApp From number is already a key in the Sync Map. If so, it will bail out (no action taken). If the From number is not an existing key, it means this is a new interaction from that WhatsApp phone number. The From will be entered in the Sync Map and the WhatsApp message will be redirected to a TwiML source.
 
