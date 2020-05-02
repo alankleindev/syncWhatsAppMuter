@@ -32,7 +32,7 @@ exports.handler = function(context, event, callback) {
         .then(sync_map_item => {
             console.log(`Sync Map Key Exists for ${sync_map_item.key}`);
             console.log('BAILOUT!!!');
-            callback(null, {result: 'BAILOUT!!!'});
+            callback(null, twiml);
         })
         .catch(err => {
             twilioClient.sync.services(syncService)
